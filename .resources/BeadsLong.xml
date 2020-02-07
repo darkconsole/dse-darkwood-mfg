@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="description.xsd">
+
+	<bone-default name="BeadRoot">
+		<mass>0.000000</mass>
+		<inertia x="0" y="0" z="0"/>
+		<centerOfMassTransform>
+			<basis x="0" y="0" z="0" w="1"/>
+			<origin x="0" y="0" z="0"/>
+		</centerOfMassTransform>
+		<linearDamping>0</linearDamping>
+		<angularDamping>0</angularDamping>
+		<friction>0</friction>
+		<rollingFriction>0</rollingFriction>
+		<restitution>0</restitution>
+	</bone-default>
+
+	<bone-default name="BeadLen1" extends="BeadRoot">
+		<centerOfMassTransform>
+			<basis x="0" y="0" z="0" w="1"/>
+			<origin x="0" y="0" z="0"/>
+		</centerOfMassTransform>
+		<mass>2.000000</mass>
+		<inertia x="15" y="15" z="15"/>
+		<gravity-factor>1.0</gravity-factor>
+        <linearDamping>0.0</linearDamping>
+        <angularDampening>0.0</angularDampening>
+        <restitution>0.0</restitution>
+		<friction>0.1</friction>
+		<rollingFriction>1.0</rollingFriction>
+        <margin-multiplier>0.0</margin-multiplier>
+	</bone-default>
+
+	<generic-constraint-default name="BeadCon1">
+		<frameInB>
+			<basis x="0" y="0" z="0" w="1"/>
+			<origin x="0" y="0" z="0"/>
+		</frameInB>
+		<useLinearReferenceFrameA>false</useLinearReferenceFrameA>
+		<linearLowerLimit x="0.0" y="0.0" z="0.0"/>
+		<linearUpperLimit x="0.0" y="0.0" z="0.0"/>
+		<angularLowerLimit x="0.0" y="0.0" z="0.0"/>
+		<angularUpperLimit x="0.0" y="0.0" z="0.0"/>
+        <linearStiffness x="0.0" y="0.0" z="0.0"/>
+        <angularStiffness x="0.0" y="0.0" z="0.0"/>
+		<linearDamping x="90.0" y="90.0" z="90.0"/>
+		<angularDamping x="90.0" y="90.0" z="90.0"/>
+		<linearEquilibrium x="0.0" y="0.0" z="0.0"/>
+		<angularEquilibrium x="0.0" y="0.0" z="0.0"/>
+		<linearBounce x="0.0" y="0.0" z="0.0"/>
+		<angularBounce x="0.0" y="0.0" z="0.0"/>
+	</generic-constraint-default>
+
+	<generic-constraint-default name="BeadCon2" extends="BeadCon1">
+		<linearLowerLimit x="-0.0" y="-2.0" z="-0.0"/>
+		<angularLowerLimit x="-1.0" y="-1.0" z="-0.1"/>
+		<angularUpperLimit x="1.0" y="1.0" z="0.1"/>
+	</generic-constraint-default>
+    
+	<bone name="BeadBone001" template="BeadRoot"/>
+	<bone name="BeadBone002" template="BeadLen1"/>
+	<bone name="BeadBone003" template="BeadLen1"/>
+	<bone name="BeadBone004" template="BeadLen1"/>
+	<bone name="BeadBone005" template="BeadLen1"/>
+	<bone name="BeadBone006" template="BeadLen1"/>
+    <generic-constraint template="BeadCon1" bodyA="BeadBone002" bodyB="BeadBone001"/>
+	<generic-constraint template="BeadCon2" bodyA="BeadBone003" bodyB="BeadBone002"/>
+	<generic-constraint template="BeadCon2" bodyA="BeadBone004" bodyB="BeadBone003"/>
+	<generic-constraint template="BeadCon2" bodyA="BeadBone005" bodyB="BeadBone004"/>
+	<generic-constraint template="BeadCon2" bodyA="BeadBone006" bodyB="BeadBone005"/>
+
+
+
+	<per-vertex-shape name="Sphere004">
+		<margin>0</margin>
+		<shared>private</shared>
+		<tag>analbeads</tag>
+	</per-vertex-shape>
+
+	<per-vertex-shape name="Sphere005">
+		<margin>0</margin>
+		<shared>private</shared>
+		<tag>analbeads</tag>
+	</per-vertex-shape>
+
+	<per-vertex-shape name="Sphere006">
+		<margin>0</margin>
+		<shared>private</shared>
+		<tag>analbeads</tag>
+	</per-vertex-shape>
+
+	<per-vertex-shape name="Sphere007">
+		<margin>0</margin>
+		<shared>private</shared>
+		<tag>analbeads</tag>
+	</per-vertex-shape>
+
+	<per-triangle-shape name="VirtualBodyCollision">
+		<margin>1.0</margin>
+		<penetration>0.01</penetration>
+		<shared>private</shared>
+		<tag>VirtualBodyCollision</tag>
+	</per-triangle-shape>
+
+</system>

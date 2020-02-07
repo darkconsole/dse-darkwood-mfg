@@ -1,0 +1,64 @@
+<tintmasks>
+
+	<!-- Anal Beads -->
+	<object path="dse-buttplug\Beads-f.nif" remappable="true">
+
+		<geometry name="Sphere001" texture="0">
+			<mask slot="0" type="solid"  alpha="1.0" color="333333" blend="tint" />
+		</geometry>
+		<geometry name="Sphere002" texture="0">
+			<mask slot="0" type="solid"  alpha="1.0" color="333333" blend="tint" />
+		</geometry>
+		<geometry name="Sphere003" texture="0">
+			<mask slot="0" type="solid"  alpha="1.0" color="333333" blend="tint" />
+		</geometry>
+		<geometry name="Sphere004" texture="0">
+			<mask slot="0" type="solid"  alpha="1.0" color="333333" blend="tint" />
+		</geometry>
+		<geometry name="Sphere005" texture="0">
+			<mask slot="0" type="solid"  alpha="1.0" color="333333" blend="tint" />
+		</geometry>
+
+		<geometry name="Sphere001" texture="4">
+			<mask slot="2" type="solid" alpha="1.0" color="333333" blend="linearlight" />
+		</geometry>
+		<geometry name="Sphere002" texture="4">
+			<mask slot="2" type="solid" alpha="1.0" color="333333" blend="linearlight" />
+		</geometry>
+		<geometry name="Sphere003" texture="4">
+			<mask slot="2" type="solid" alpha="1.0" color="333333" blend="linearlight" />
+		</geometry>
+		<geometry name="Sphere004" texture="4">
+			<mask slot="2" type="solid" alpha="1.0" color="333333" blend="linearlight" />
+		</geometry>
+		<geometry name="Sphere005" texture="4">
+			<mask slot="2" type="solid" alpha="1.0" color="333333" blend="linearlight" />
+		</geometry>
+
+		<geometry name="String001" texture="0">
+			<mask slot="1" type="solid"  alpha="1.0" color="333333" blend="tint" />
+		</geometry>
+		<geometry name="String002" texture="0">
+			<mask slot="1" type="solid"  alpha="1.0" color="333333" blend="tint" />
+		</geometry>
+		<geometry name="String003" texture="0">
+			<mask slot="1" type="solid"  alpha="1.0" color="333333" blend="tint" />
+		</geometry>
+		<geometry name="String004" texture="0">
+			<mask slot="1" type="solid"  alpha="1.0" color="333333" blend="tint" />
+		</geometry>
+
+	</object>
+
+	<object path="dse-buttplug\Beads-g.nif" remappable="true">
+
+		<geometry name="Sphere001" texture="0">
+			<mask slot="0" type="solid"  alpha="1.0" color="333333" blend="tint" />
+		</geometry>
+		<geometry name="Sphere001" texture="4">
+			<mask slot="2" type="solid" alpha="1.0" color="333333" blend="linearlight" />
+		</geometry>
+
+	</object>
+
+</tintmasks>
