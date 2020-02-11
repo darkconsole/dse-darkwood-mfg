@@ -130,4 +130,38 @@
 
 	</object>
 
+	<object path="dse-buttplug\Bulb-m.nif" remappable="true">
+
+		<geometry name="Plug001" texture="0">
+			<mask slot="0" type="solid"  alpha="1.0" color="333333" blend="tint" />
+		</geometry>
+		<geometry name="Hose001" texture="0">
+			<mask slot="1" type="solid"  alpha="1.0" color="333333" blend="tint" />
+		</geometry>
+		<geometry name="Bulb001" texture="0">
+			<mask slot="2" type="solid"  alpha="1.0" color="333333" blend="tint" />
+		</geometry>
+		<geometry name="Valve001" texture="0">
+			<mask slot="3" type="solid"  alpha="1.0" color="AAAAAA" blend="tint" />
+		</geometry>
+
+	</object>
+
+	<object path="dse-buttplug\Bulb-g.nif" remappable="true">
+
+		<geometry name="Plug001" texture="0">
+			<mask slot="0" type="solid"  alpha="1.0" color="333333" blend="tint" />
+		</geometry>
+		<geometry name="Hose001" texture="0">
+			<mask slot="1" type="solid"  alpha="1.0" color="333333" blend="tint" />
+		</geometry>
+		<geometry name="Bulb001" texture="0">
+			<mask slot="2" type="solid"  alpha="1.0" color="333333" blend="tint" />
+		</geometry>
+		<geometry name="Valve001" texture="0">
+			<mask slot="3" type="solid"  alpha="1.0" color="AAAAAA" blend="tint" />
+		</geometry>
+
+	</object>
+
 </tintmasks>
