@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="description.xsd">
+
+	<bone-default name="StringRoot">
+		<mass>0.000000</mass>
+		<inertia x="0" y="0" z="0"/>
+		<centerOfMassTransform>
+			<basis x="0" y="0" z="0" w="1"/>
+			<origin x="0" y="0" z="0"/>
+		</centerOfMassTransform>
+		<linearDamping>0</linearDamping>
+		<angularDamping>0</angularDamping>
+		<friction>0</friction>
+		<rollingFriction>0</rollingFriction>
+		<restitution>0</restitution>
+	</bone-default>
+
+	<bone-default name="StringLen1" extends="StringRoot">
+		<centerOfMassTransform>
+			<basis x="0" y="0" z="0" w="1"/>
+			<origin x="0" y="0" z="0"/>
+		</centerOfMassTransform>
+		<mass>2.000000</mass>
+		<inertia x="5" y="5" z="5"/>
+		<gravity-factor>1.0</gravity-factor>
+        <linearDamping>0.0</linearDamping>
+        <angularDampening>0.0</angularDampening>
+        <restitution>0.0</restitution>
+		<friction>0.1</friction>
+		<rollingFriction>1.0</rollingFriction>
+        <margin-multiplier>0.0</margin-multiplier>
+	</bone-default>
+
+	<bone-default name="StringLen2" extends="StringLen1">
+		<mass>2.000000</mass>
+		<inertia x="5" y="5" z="5"/>
+	</bone-default>
+
+	<bone-default name="StringLen3" extends="StringLen2">
+		<mass>3.000000</mass>
+		<inertia x="5" y="5" z="5"/>
+	</bone-default>
+
+	<bone-default name="StringLen4" extends="StringLen3">
+		<mass>5.000000</mass>
+		<inertia x="5" y="5" z="5"/>
+	</bone-default>
+
+	<generic-constraint-default name="StringCon1">
+		<frameInB>
+			<basis x="0" y="0" z="0" w="1"/>
+			<origin x="0" y="0" z="0"/>
+		</frameInB>
+		<useLinearReferenceFrameA>false</useLinearReferenceFrameA>
+		<linearLowerLimit x="0.0" y="0.0" z="0.0"/>
+		<linearUpperLimit x="0.0" y="0.0" z="0.0"/>
+		<angularLowerLimit x="0.0" y="0.0" z="0.0"/>
+		<angularUpperLimit x="0.0" y="0.0" z="0.0"/>
+        <linearStiffness x="0.0" y="0.0" z="0.0"/>
+        <angularStiffness x="0.0" y="0.0" z="0.0"/>
+		<linearDamping x="60.0" y="60.0" z="60.0"/>
+		<angularDamping x="60.0" y="60.0" z="60.0"/>
+		<linearEquilibrium x="0.0" y="0.0" z="0.0"/>
+		<angularEquilibrium x="0.0" y="0.0" z="0.0"/>
+		<linearBounce x="0.0" y="0.0" z="0.0"/>
+		<angularBounce x="0.0" y="0.0" z="0.0"/>
+	</generic-constraint-default>
+
+	<generic-constraint-default name="StringCon2" extends="StringCon1">
+		<linearDamping x="55.0" y="55.0" z="55.0"/>
+		<angularDamping x="55.0" y="55.0" z="55.0"/>
+	</generic-constraint-default>
+
+	<generic-constraint-default name="StringCon3" extends="StringCon2">
+		<linearDamping x="40.0" y="40.0" z="40.0"/>
+		<angularDamping x="40.0" y="40.0" z="40.0"/>
+	</generic-constraint-default>
+    
+	<bone name="CME Pelvis [Pelv]" template="StringRoot" />
+	<bone name="ButtString001" template="StringRoot"/>
+	<bone name="ButtString002" template="StringLen1"/>
+	<bone name="ButtString003" template="StringLen1"/>
+	<bone name="ButtString004" template="StringLen2"/>
+	<bone name="ButtString005" template="StringLen2"/>
+	<bone name="ButtString006" template="StringLen3"/>
+	<bone name="ButtString007" template="StringLen3"/>
+	<bone name="ButtString008" template="StringLen3"/>
+	<bone name="ButtString009" template="StringLen4"/>
+	<generic-constraint template="StringCon1" bodyA="ButtString001" bodyB="CME Pelvis [Pelv]"/>
+    <generic-constraint template="StringCon1" bodyA="ButtString002" bodyB="ButtString001"/>
+	<generic-constraint template="StringCon1" bodyA="ButtString003" bodyB="ButtString002"/>
+	<generic-constraint template="StringCon2" bodyA="ButtString004" bodyB="ButtString003"/>
+	<generic-constraint template="StringCon2" bodyA="ButtString005" bodyB="ButtString004"/>
+	<generic-constraint template="StringCon3" bodyA="ButtString006" bodyB="ButtString005"/>
+	<generic-constraint template="StringCon3" bodyA="ButtString007" bodyB="ButtString006"/>
+	<generic-constraint template="StringCon3" bodyA="ButtString008" bodyB="ButtString007"/>
+	<generic-constraint template="StringCon3" bodyA="ButtString009" bodyB="ButtString008"/>
+
+	<per-vertex-shape name="Bulb001">
+		<margin>0.0</margin>
+		<shared>private</shared>
+		<tag>buttbulb</tag>
+		<no-collide-with-tag>butthose</no-collide-with-tag>
+	</per-vertex-shape>
+
+	<per-vertex-shape name="Hose001">
+		<margin>0.0</margin>
+		<shared>private</shared>
+		<tag>butthose</tag>
+		<no-collide-with-tag>buttbulb</no-collide-with-tag>
+		<weight-threshold bone="ButtString001">1.1</weight-threshold>
+		<weight-threshold bone="ButtString002">1.1</weight-threshold>
+		<weight-threshold bone="ButtString003">1.1</weight-threshold>
+	</per-vertex-shape>
+
+	<per-triangle-shape name="VirtualBodyCollision">
+		<margin>0.0</margin>
+		<shared>private</shared>
+		<tag>VirtualBodyCollision</tag>
+	</per-triangle-shape>
+
+</system>
