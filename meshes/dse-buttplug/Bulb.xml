@@ -100,6 +100,7 @@
 		<margin>0.0</margin>
 		<shared>private</shared>
 		<tag>buttbulb</tag>
+		<no-collide-with-tag>buttbulb</no-collide-with-tag>
 		<no-collide-with-tag>butthose</no-collide-with-tag>
 	</per-vertex-shape>
 
@@ -108,15 +109,16 @@
 		<shared>private</shared>
 		<tag>butthose</tag>
 		<no-collide-with-tag>buttbulb</no-collide-with-tag>
-		<weight-threshold bone="ButtString001">1.1</weight-threshold>
-		<weight-threshold bone="ButtString002">1.1</weight-threshold>
-		<weight-threshold bone="ButtString003">1.1</weight-threshold>
+		<no-collide-with-tag>butthose</no-collide-with-tag>
 	</per-vertex-shape>
 
 	<per-triangle-shape name="VirtualBodyCollision">
 		<margin>0.0</margin>
 		<shared>private</shared>
 		<tag>VirtualBodyCollision</tag>
+		<no-collide-with-bone>ButtString001</no-collide-with-bone>
+		<no-collide-with-bone>ButtString002</no-collide-with-bone>
+		<no-collide-with-bone>ButtString003</no-collide-with-bone>
 	</per-triangle-shape>
 
 </system>
