@@ -142,7 +142,7 @@
 			<mask slot="2" type="solid"  alpha="1.0" color="333333" blend="tint" />
 		</geometry>
 		<geometry name="Valve001" texture="0">
-			<mask slot="3" type="solid"  alpha="1.0" color="AAAAAA" blend="tint" />
+			<mask slot="3" type="solid"  alpha="1.0" color="333333" blend="tint" />
 		</geometry>
 
 	</object>
@@ -159,7 +159,7 @@
 			<mask slot="2" type="solid"  alpha="1.0" color="333333" blend="tint" />
 		</geometry>
 		<geometry name="Valve001" texture="0">
-			<mask slot="3" type="solid"  alpha="1.0" color="AAAAAA" blend="tint" />
+			<mask slot="3" type="solid"  alpha="1.0" color="333333" blend="tint" />
 		</geometry>
 
 	</object>
