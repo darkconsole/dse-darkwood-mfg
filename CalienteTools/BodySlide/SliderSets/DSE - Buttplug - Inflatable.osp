@@ -4,293 +4,386 @@
         <DataFolder>DSE - Buttplug - Inflatable</DataFolder>
         <SourceFile>DSE - Buttplug - Inflatable.nif</SourceFile>
         <OutputPath>meshes\dse-buttplug</OutputPath>
-        <OutputFile GenWeights="false">Bulb-f</OutputFile>
+        <OutputFile GenWeights="true">Bulb-f</OutputFile>
         <Shape target="Bulb001">Bulb001</Shape>
+        <Shape target="BaseShapeHR" DataFolder="CBBE">CBBE</Shape>
         <Shape target="Hose001">Hose001</Shape>
         <Shape target="Plug001">Plug001</Shape>
         <Shape target="Valve001">Valve001</Shape>
         <Shape target="VirtualBodyCollision">VirtualBodyCollision</Shape>
-        <Slider name="AnkleSize" invert="false" default="0">
+        <Slider name="AnkleSize" invert="false" small="100" big="0">
+            <Data name="BaseShapeHRAnkleSize" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRAnkleSize</Data>
             <Data name="VirtualBodyCollisionAnkleSize" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionAnkleSize</Data>
         </Slider>
-        <Slider name="AppleCheeks" invert="false" default="0">
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRAppleCheeks" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRAppleCheeks</Data>
             <Data name="VirtualBodyCollisionAppleCheeks" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionAppleCheeks</Data>
         </Slider>
-        <Slider name="Arms" invert="false" default="0">
+        <Slider name="AreolaSize" invert="false" small="0" big="0" uv="true">
+            <Data name="BaseShapeHRAreolaSize" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRAreolaSize</Data>
+        </Slider>
+        <Slider name="Arms" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRarms" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRarms</Data>
             <Data name="VirtualBodyCollisionArms" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionArms</Data>
         </Slider>
-        <Slider name="Back" invert="false" default="0">
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBack" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBack</Data>
             <Data name="VirtualBodyCollisionBack" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionBack</Data>
         </Slider>
-        <Slider name="BackArch" invert="false" default="0">
+        <Slider name="BackArch" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBackArch" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBackArch</Data>
             <Data name="VirtualBodyCollisionBackArch" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionBackArch</Data>
         </Slider>
-        <Slider name="Belly" invert="false" default="0">
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBelly" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBelly</Data>
             <Data name="VirtualBodyCollisionBelly" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionBelly</Data>
         </Slider>
-        <Slider name="BigBelly" invert="false" default="0">
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBigBelly" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBigBelly</Data>
             <Data name="VirtualBodyCollisionBigBelly" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionBigBelly</Data>
         </Slider>
-        <Slider name="BigButt" invert="false" default="0">
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBigButt" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBigButt</Data>
             <Data name="VirtualBodyCollisionBigButt" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionBigButt</Data>
         </Slider>
-        <Slider name="BigTorso" invert="false" default="0">
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBigTorso" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBigTorso</Data>
             <Data name="VirtualBodyCollisionBigTorso" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionBigTorso</Data>
         </Slider>
-        <Slider name="BreastCenter" invert="false" default="0">
+        <Slider name="BreastCenter" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastCenter" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastCenter</Data>
             <Data name="VirtualBodyCollisionBreastCenter" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionBreastCenter</Data>
         </Slider>
-        <Slider name="BreastCenterBig" invert="false" default="0">
+        <Slider name="BreastCenterBig" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastCenterBig" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastCenterBig</Data>
             <Data name="VirtualBodyCollisionBreastCenterBig" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionBreastCenterBig</Data>
         </Slider>
-        <Slider name="BreastCleavage" invert="false" default="0">
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastCleavage" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastCleavage</Data>
             <Data name="VirtualBodyCollisionBreastCleavage" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionBreastCleavage</Data>
         </Slider>
-        <Slider name="BreastFlatness2" invert="false" default="0">
+        <Slider name="BreastFlatness2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastFlatness2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastFlatness2</Data>
             <Data name="VirtualBodyCollisionBreastFlatness2" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionBreastFlatness2</Data>
         </Slider>
-        <Slider name="BreastFlatness" invert="false" default="0">
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastFlattness" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastFlattness</Data>
             <Data name="VirtualBodyCollisionBreastFlatness" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionBreastFlatness</Data>
         </Slider>
-        <Slider name="BreastGravity2" invert="false" default="0">
+        <Slider name="BreastGravity2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastGravity2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastGravity2</Data>
             <Data name="VirtualBodyCollisionBreastGravity2" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionBreastGravity2</Data>
         </Slider>
-        <Slider name="BreastHeight" invert="false" default="0">
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastHeight" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastHeight</Data>
             <Data name="VirtualBodyCollisionBreastHeight" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionBreastHeight</Data>
         </Slider>
-        <Slider name="BreastPerkiness" invert="false" default="0">
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastPerkiness" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastPerkiness</Data>
             <Data name="VirtualBodyCollisionBreastPerkiness" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionBreastPerkiness</Data>
         </Slider>
-        <Slider name="Breasts" invert="false" default="0">
+        <Slider name="Breasts" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreasts" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreasts</Data>
             <Data name="VirtualBodyCollisionBreasts" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionBreasts</Data>
         </Slider>
-        <Slider name="BreastsFantasy" invert="false" default="0">
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsFantasy" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsFantasy</Data>
             <Data name="VirtualBodyCollisionBreastsFantasy" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionBreastsFantasy</Data>
         </Slider>
-        <Slider name="BreastsGone" invert="false" default="0">
+        <Slider name="BreastsGone" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsGone" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsGone</Data>
             <Data name="VirtualBodyCollisionBreastsGone" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionBreastsGone</Data>
         </Slider>
-        <Slider name="BreastsNewSH" invert="false" default="0">
+        <Slider name="BreastsNewSH" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsNewSH" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsNewSH</Data>
             <Data name="VirtualBodyCollisionBreastsNewSH" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionBreastsNewSH</Data>
         </Slider>
-        <Slider name="BreastsSmall" invert="false" default="0">
+        <Slider name="BreastsSmall" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsSmall" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsSmall</Data>
             <Data name="VirtualBodyCollisionBreastsSmall" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionBreastsSmall</Data>
         </Slider>
-        <Slider name="BreastsSmall2" invert="false" default="0">
+        <Slider name="BreastsSmall2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsSmall2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsSmall2</Data>
             <Data name="VirtualBodyCollisionBreastsSmall2" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionBreastsSmall2</Data>
         </Slider>
-        <Slider name="BreastsTogether" invert="false" default="0">
+        <Slider name="BreastsTogether" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsTogether" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsTogether</Data>
             <Data name="VirtualBodyCollisionBreastsTogether" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionBreastsTogether</Data>
         </Slider>
-        <Slider name="BreastTopSlope" invert="false" default="0">
+        <Slider name="BreastTopSlope" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastTopSlope" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastTopSlope</Data>
             <Data name="VirtualBodyCollisionBreastTopSlope" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionBreastTopSlope</Data>
         </Slider>
-        <Slider name="BreastWidth" invert="false" default="0">
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastWidth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastWidth</Data>
             <Data name="VirtualBodyCollisionBreastWidth" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionBreastWidth</Data>
         </Slider>
-        <Slider name="Butt" invert="false" default="0">
+        <Slider name="Butt" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButt" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButt</Data>
             <Data name="VirtualBodyCollisionButt" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionButt</Data>
         </Slider>
-        <Slider name="ButtClassic" invert="false" default="0">
+        <Slider name="ButtClassic" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButtClassic" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButtClassic</Data>
             <Data name="Valve001ButtClassic" target="Valve001" local="true">DSE - Buttplug - Inflatable.osd\Valve001ButtClassic</Data>
             <Data name="Plug001ButtClassic" target="Plug001" local="true">DSE - Buttplug - Inflatable.osd\Plug001ButtClassic</Data>
             <Data name="Hose001ButtClassic" target="Hose001" local="true">DSE - Buttplug - Inflatable.osd\Hose001ButtClassic</Data>
             <Data name="Bulb001ButtClassic" target="Bulb001" local="true">DSE - Buttplug - Inflatable.osd\Bulb001ButtClassic</Data>
             <Data name="VirtualBodyCollisionButtClassic" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionButtClassic</Data>
         </Slider>
-        <Slider name="ButtCrack" invert="false" default="0">
+        <Slider name="ButtCrack" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButtCrack" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButtCrack</Data>
             <Data name="VirtualBodyCollisionButtCrack" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionButtCrack</Data>
         </Slider>
-        <Slider name="ButtShape2" invert="false" default="0">
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButtShape2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButtShape2</Data>
             <Data name="Valve001ButtShape2" target="Valve001" local="true">DSE - Buttplug - Inflatable.osd\Valve001ButtShape2</Data>
             <Data name="Plug001ButtShape2" target="Plug001" local="true">DSE - Buttplug - Inflatable.osd\Plug001ButtShape2</Data>
             <Data name="Hose001ButtShape2" target="Hose001" local="true">DSE - Buttplug - Inflatable.osd\Hose001ButtShape2</Data>
             <Data name="Bulb001ButtShape2" target="Bulb001" local="true">DSE - Buttplug - Inflatable.osd\Bulb001ButtShape2</Data>
             <Data name="VirtualBodyCollisionButtShape2" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionButtShape2</Data>
         </Slider>
-        <Slider name="ButtSmall" invert="false" default="0">
+        <Slider name="ButtSmall" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButtSmall" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButtSmall</Data>
             <Data name="VirtualBodyCollisionButtSmall" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionButtSmall</Data>
         </Slider>
-        <Slider name="CalfSize" invert="false" default="0">
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRCalfSize" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRCalfSize</Data>
             <Data name="VirtualBodyCollisionCalfSize" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionCalfSize</Data>
         </Slider>
-        <Slider name="CalfSmooth" invert="false" default="0">
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRCalfSmooth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRCalfSmooth</Data>
             <Data name="VirtualBodyCollisionCalfSmooth" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionCalfSmooth</Data>
         </Slider>
-        <Slider name="ChestDepth" invert="false" default="0">
+        <Slider name="ChestDepth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRChestDepth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRChestDepth</Data>
             <Data name="VirtualBodyCollisionChestDepth" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionChestDepth</Data>
         </Slider>
-        <Slider name="ChestWidth" invert="false" default="0">
+        <Slider name="ChestWidth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRChestWidth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRChestWidth</Data>
             <Data name="VirtualBodyCollisionChestWidth" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionChestWidth</Data>
         </Slider>
-        <Slider name="ChubbyArms" invert="false" default="0">
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRChubbyArms" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRChubbyArms</Data>
             <Data name="VirtualBodyCollisionChubbyArms" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionChubbyArms</Data>
         </Slider>
-        <Slider name="ChubbyButt" invert="false" default="0">
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRChubbyButt" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRChubbyButt</Data>
             <Data name="VirtualBodyCollisionChubbyButt" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionChubbyButt</Data>
         </Slider>
-        <Slider name="ChubbyLegs" invert="false" default="0">
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRChubbyLegs" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRChubbyLegs</Data>
             <Data name="VirtualBodyCollisionChubbyLegs" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionChubbyLegs</Data>
         </Slider>
-        <Slider name="ChubbyWaist" invert="false" default="0">
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRChubbyWaist" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRChubbyWaist</Data>
             <Data name="VirtualBodyCollisionChubbyWaist" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionChubbyWaist</Data>
         </Slider>
-        <Slider name="CrotchBack" invert="false" default="0">
+        <Slider name="CrotchBack" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRCrotchBack" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRCrotchBack</Data>
             <Data name="VirtualBodyCollisionCrotchBack" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionCrotchBack</Data>
         </Slider>
-        <Slider name="DoubleMelon" invert="false" default="0">
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRDoubleMelon" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRDoubleMelon</Data>
             <Data name="VirtualBodyCollisionDoubleMelon" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionDoubleMelon</Data>
         </Slider>
-        <Slider name="ForearmSize" invert="false" default="0">
+        <Slider name="ForearmSize" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRForearmSize" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRForearmSize</Data>
             <Data name="VirtualBodyCollisionForearmSize" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionForearmSize</Data>
         </Slider>
-        <Slider name="Groin" invert="false" default="0">
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRGroin" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRGroin</Data>
             <Data name="Valve001Groin" target="Valve001" local="true">DSE - Buttplug - Inflatable.osd\Valve001Groin</Data>
             <Data name="Plug001Groin" target="Plug001" local="true">DSE - Buttplug - Inflatable.osd\Plug001Groin</Data>
             <Data name="Hose001Groin" target="Hose001" local="true">DSE - Buttplug - Inflatable.osd\Hose001Groin</Data>
             <Data name="Bulb001Groin" target="Bulb001" local="true">DSE - Buttplug - Inflatable.osd\Bulb001Groin</Data>
             <Data name="VirtualBodyCollisionGroin" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionGroin</Data>
         </Slider>
-        <Slider name="HipBone" invert="false" default="0">
+        <Slider name="HipBone" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRHipbone" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRHipbone</Data>
             <Data name="VirtualBodyCollisionHipBone" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionHipBone</Data>
         </Slider>
-        <Slider name="HipForward" invert="false" default="0">
+        <Slider name="HipForward" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRHipForward" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRHipForward</Data>
             <Data name="Valve001HipForward" target="Valve001" local="true">DSE - Buttplug - Inflatable.osd\Valve001HipForward</Data>
             <Data name="Plug001HipForward" target="Plug001" local="true">DSE - Buttplug - Inflatable.osd\Plug001HipForward</Data>
             <Data name="Hose001HipForward" target="Hose001" local="true">DSE - Buttplug - Inflatable.osd\Hose001HipForward</Data>
             <Data name="Bulb001HipForward" target="Bulb001" local="true">DSE - Buttplug - Inflatable.osd\Bulb001HipForward</Data>
             <Data name="VirtualBodyCollisionHipForward" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionHipForward</Data>
         </Slider>
-        <Slider name="Hips" invert="false" default="0">
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRHips" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRHips</Data>
             <Data name="VirtualBodyCollisionHips" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionHips</Data>
         </Slider>
-        <Slider name="HipUpperWidth" invert="false" default="0">
+        <Slider name="HipUpperWidth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRHipUpperWidth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRHipUpperWidth</Data>
             <Data name="VirtualBodyCollisionHipUpperWidth" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionHipUpperWidth</Data>
         </Slider>
-        <Slider name="KneeHeight" invert="false" default="0">
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRKneeHeight" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRKneeHeight</Data>
             <Data name="VirtualBodyCollisionKneeHeight" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionKneeHeight</Data>
         </Slider>
-        <Slider name="KneeShape" invert="false" default="0">
+        <Slider name="KneeShape" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRKneeShape" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRKneeShape</Data>
             <Data name="VirtualBodyCollisionKneeShape" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionKneeShape</Data>
         </Slider>
-        <Slider name="LegShapeClassic" invert="false" default="0">
+        <Slider name="LegShapeClassic" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRLegShapeClassic" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRLegShapeClassic</Data>
             <Data name="VirtualBodyCollisionLegShapeClassic" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionLegShapeClassic</Data>
         </Slider>
-        <Slider name="LegsThin" invert="false" default="0">
+        <Slider name="LegsThin" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRLegsThin" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRLegsThin</Data>
             <Data name="VirtualBodyCollisionLegsThin" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionLegsThin</Data>
         </Slider>
-        <Slider name="MuscleAbs" invert="false" default="0">
+        <Slider name="MuscleAbs" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMuscleAbs" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMuscleAbs</Data>
             <Data name="VirtualBodyCollisionMuscleAbs" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionMuscleAbs</Data>
         </Slider>
-        <Slider name="MuscleArms" invert="false" default="0">
+        <Slider name="MuscleArms" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMuscleArms" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMuscleArms</Data>
             <Data name="VirtualBodyCollisionMuscleArms" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionMuscleArms</Data>
         </Slider>
-        <Slider name="MuscleButt" invert="false" default="0">
+        <Slider name="MuscleButt" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMuscleButt" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMuscleButt</Data>
             <Data name="VirtualBodyCollisionMuscleButt" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionMuscleButt</Data>
         </Slider>
-        <Slider name="MuscleLegs" invert="false" default="0">
+        <Slider name="MuscleLegs" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMuscleLegs" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMuscleLegs</Data>
             <Data name="VirtualBodyCollisionMuscleLegs" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionMuscleLegs</Data>
         </Slider>
-        <Slider name="MusclePecs" invert="false" default="0">
+        <Slider name="MusclePecs" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMusclePecs" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMusclePecs</Data>
             <Data name="VirtualBodyCollisionMusclePecs" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionMusclePecs</Data>
         </Slider>
-        <Slider name="NeckSeam" invert="false" default="0" hidden="true">
+        <Slider name="NeckSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="BaseShapeHRNeckSeam" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNeckSeam</Data>
             <Data name="VirtualBodyCollisionNeckSeam" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionNeckSeam</Data>
         </Slider>
-        <Slider name="NipBGone" invert="false" default="0">
+        <Slider name="NipBGone" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNipBGone" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNipBGone</Data>
             <Data name="VirtualBodyCollisionNipBGone" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionNipBGone</Data>
         </Slider>
-        <Slider name="NippleDistance" invert="false" default="0">
+        <Slider name="NippleDistance" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNippleDistance" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNippleDistance</Data>
             <Data name="VirtualBodyCollisionNippleDistance" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionNippleDistance</Data>
         </Slider>
-        <Slider name="NippleDown" invert="false" default="0">
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNippleDown" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNippleDown</Data>
             <Data name="VirtualBodyCollisionNippleDown" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionNippleDown</Data>
         </Slider>
-        <Slider name="NippleLength" invert="false" default="0">
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNippleLength" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNippleLength</Data>
             <Data name="VirtualBodyCollisionNippleLength" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionNippleLength</Data>
         </Slider>
-        <Slider name="NippleManga" invert="false" default="0">
+        <Slider name="NippleManga" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNippleManga" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNippleManga</Data>
             <Data name="VirtualBodyCollisionNippleManga" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionNippleManga</Data>
         </Slider>
-        <Slider name="NipplePerkiness" invert="false" default="0">
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNipplePerkiness" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNipplePerkiness</Data>
             <Data name="VirtualBodyCollisionNipplePerkiness" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionNipplePerkiness</Data>
         </Slider>
-        <Slider name="NipplePerkManga" invert="false" default="0">
+        <Slider name="NipplePerkManga" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNipplePerkManga" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNipplePerkManga</Data>
             <Data name="VirtualBodyCollisionNipplePerkManga" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionNipplePerkManga</Data>
         </Slider>
-        <Slider name="NippleSize" invert="false" default="0">
+        <Slider name="NippleSize" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNippleSize" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNippleSize</Data>
             <Data name="VirtualBodyCollisionNippleSize" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionNippleSize</Data>
         </Slider>
-        <Slider name="NippleTip" invert="false" default="0">
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNippleTip" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNippleTip</Data>
             <Data name="VirtualBodyCollisionNippleTip" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionNippleTip</Data>
         </Slider>
-        <Slider name="NippleTipManga" invert="false" default="0">
+        <Slider name="NippleTipManga" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNippleTipManga" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNippleTipManga</Data>
             <Data name="VirtualBodyCollisionNippleTipManga" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionNippleTipManga</Data>
         </Slider>
-        <Slider name="NippleUp" invert="false" default="0">
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNippleUp" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNippleUp</Data>
             <Data name="VirtualBodyCollisionNippleUp" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionNippleUp</Data>
         </Slider>
-        <Slider name="PregnancyBelly" invert="false" default="0">
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRPregnancyBelly" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRPregnancyBelly</Data>
             <Data name="VirtualBodyCollisionPregnancyBelly" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionPregnancyBelly</Data>
         </Slider>
-        <Slider name="PushUp" invert="false" default="0">
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRPushUp" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRPushUp</Data>
             <Data name="VirtualBodyCollisionPushUp" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionPushUp</Data>
         </Slider>
-        <Slider name="RibsProminance" invert="false" default="0">
+        <Slider name="RibsProminance" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRRibsProminance" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRRibsProminance</Data>
             <Data name="VirtualBodyCollisionRibsProminance" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionRibsProminance</Data>
         </Slider>
-        <Slider name="RoundAss" invert="false" default="0">
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRRoundAss" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRRoundAss</Data>
             <Data name="VirtualBodyCollisionRoundAss" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionRoundAss</Data>
         </Slider>
-        <Slider name="ShoulderSmooth" invert="false" default="0">
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRShoulderSmooth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRShoulderSmooth</Data>
             <Data name="VirtualBodyCollisionShoulderSmooth" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionShoulderSmooth</Data>
         </Slider>
-        <Slider name="ShoulderTweak" invert="false" default="0">
+        <Slider name="ShoulderTweak" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRshouldertweak" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRshouldertweak</Data>
             <Data name="VirtualBodyCollisionShoulderTweak" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionShoulderTweak</Data>
         </Slider>
-        <Slider name="ShoulderWidth" invert="false" default="0">
+        <Slider name="ShoulderWidth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRshoulderWidth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRshoulderWidth</Data>
             <Data name="VirtualBodyCollisionShoulderWidth" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionShoulderWidth</Data>
         </Slider>
-        <Slider name="SlimThighs" invert="false" default="0">
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRSlimThighs" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRSlimThighs</Data>
             <Data name="VirtualBodyCollisionSlimThighs" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionSlimThighs</Data>
         </Slider>
-        <Slider name="SternumDepth" invert="false" default="0">
+        <Slider name="SternumDepth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRSternumDepth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRSternumDepth</Data>
             <Data name="VirtualBodyCollisionSternumDepth" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionSternumDepth</Data>
         </Slider>
-        <Slider name="SternumHeight" invert="false" default="0">
+        <Slider name="SternumHeight" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRSternumHeight" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRSternumHeight</Data>
             <Data name="VirtualBodyCollisionSternumHeight" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionSternumHeight</Data>
         </Slider>
-        <Slider name="Thighs" invert="false" default="0">
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRThighs" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRThighs</Data>
             <Data name="VirtualBodyCollisionThighs" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionThighs</Data>
         </Slider>
-        <Slider name="TummyTuck" invert="false" default="0">
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRTummyTuck" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRTummyTuck</Data>
             <Data name="VirtualBodyCollisionTummyTuck" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionTummyTuck</Data>
         </Slider>
-        <Slider name="Waist" invert="false" default="0">
+        <Slider name="Waist" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRwaist" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRwaist</Data>
             <Data name="VirtualBodyCollisionWaist" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionWaist</Data>
         </Slider>
-        <Slider name="WaistHeight" invert="false" default="0">
+        <Slider name="WaistHeight" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRWaistHeight" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRWaistHeight</Data>
             <Data name="VirtualBodyCollisionWaistHeight" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionWaistHeight</Data>
         </Slider>
-        <Slider name="WideWaistLine" invert="false" default="0">
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRWideWaistLine" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRWideWaistLine</Data>
             <Data name="VirtualBodyCollisionWideWaistLine" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionWideWaistLine</Data>
         </Slider>
-        <Slider name="WristSize" invert="false" default="0">
+        <Slider name="WristSize" invert="false" small="100" big="0">
+            <Data name="BaseShapeHRWristSize" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRWristSize</Data>
             <Data name="VirtualBodyCollisionWristSize" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionWristSize</Data>
         </Slider>
-        <Slider name="7B Lower" invert="false" default="0">
+        <Slider name="7B Lower" invert="false" small="0" big="0">
+            <Data name="BaseShapeHR7B Lower" target="BaseShapeHR">CBBE Body.osd\BaseShapeHR7B Lower</Data>
             <Data name="VirtualBodyCollision7B Lower" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollision7B Lower</Data>
         </Slider>
-        <Slider name="7B Upper" invert="false" default="0">
+        <Slider name="7B Upper" invert="false" small="0" big="0">
+            <Data name="BaseShapeHR7B Upper" target="BaseShapeHR">CBBE Body.osd\BaseShapeHR7B Upper</Data>
             <Data name="VirtualBodyCollision7B Upper" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollision7B Upper</Data>
         </Slider>
-        <Slider name="VanillaSSEHi" invert="false" default="0">
+        <Slider name="VanillaSSEHi" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRVanillaSSEHi" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRVanillaSSEHi</Data>
             <Data name="VirtualBodyCollisionVanillaSSEHi" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionVanillaSSEHi</Data>
         </Slider>
-        <Slider name="VanillaSSELo" invert="false" default="0">
+        <Slider name="VanillaSSELo" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRVanillaSSELo" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRVanillaSSELo</Data>
             <Data name="VirtualBodyCollisionVanillaSSELo" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionVanillaSSELo</Data>
         </Slider>
-        <Slider name="OldBaseShape" invert="false" default="0">
+        <Slider name="OldBaseShape" invert="false" small="0" big="0">
+            <Data name="BaseShapeHROldBaseShape" target="BaseShapeHR">CBBE Body.osd\BaseShapeHROldBaseShape</Data>
             <Data name="VirtualBodyCollisionOldBaseShape" target="VirtualBodyCollision" local="true">DSE - Buttplug - Inflatable.osd\VirtualBodyCollisionOldBaseShape</Data>
         </Slider>
     </SliderSet>

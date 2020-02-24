@@ -113,7 +113,7 @@
 
 	<!-- Inflatable Plug -->
 
-	<object path="dse-buttplug\Bulb-f.nif" remappable="true">
+	<object path="dse-buttplug\Bulb-f_1.nif" remappable="true">
 
 		<geometry name="Plug001" texture="0">
 			<mask slot="0" type="solid"  alpha="1.0" color="333333" blend="tint" />
@@ -130,7 +130,7 @@
 
 	</object>
 
-	<object path="dse-buttplug\Bulb-m.nif" remappable="true">
+	<object path="dse-buttplug\Bulb-m_1.nif" remappable="true">
 
 		<geometry name="Plug001" texture="0">
 			<mask slot="0" type="solid"  alpha="1.0" color="333333" blend="tint" />
