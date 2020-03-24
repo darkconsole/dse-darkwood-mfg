@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderSetInfo version="1">
+    <SliderSet name="DSE - Buttplug - Gem">
+        <DataFolder>DSE - Buttplug - Gem</DataFolder>
+        <SourceFile>DSE - Buttplug - Gem.nif</SourceFile>
+        <OutputPath>meshes\dse-buttplug</OutputPath>
+        <OutputFile GenWeights="true">Gem-f</OutputFile>
+        <Shape target="Glow">Glow</Shape>
+        <Shape target="Jewel">Jewel</Shape>
+        <Shape target="Steel">Steel</Shape>
+        <Slider name="ButtClassic" invert="false" small="0" big="0">
+            <Data name="SteelButtClassic" target="Steel" local="true">DSE - Buttplug - Gem.osd\SteelButtClassic</Data>
+            <Data name="JewelButtClassic" target="Jewel" local="true">DSE - Buttplug - Gem.osd\JewelButtClassic</Data>
+            <Data name="GlowButtClassic" target="Glow" local="true">DSE - Buttplug - Gem.osd\GlowButtClassic</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="SteelButtShape2" target="Steel" local="true">DSE - Buttplug - Gem.osd\SteelButtShape2</Data>
+            <Data name="JewelButtShape2" target="Jewel" local="true">DSE - Buttplug - Gem.osd\JewelButtShape2</Data>
+            <Data name="GlowButtShape2" target="Glow" local="true">DSE - Buttplug - Gem.osd\GlowButtShape2</Data>
+        </Slider>
+        <Slider name="HipForward" invert="false" small="0" big="0">
+            <Data name="SteelHipForward" target="Steel" local="true">DSE - Buttplug - Gem.osd\SteelHipForward</Data>
+            <Data name="JewelHipForward" target="Jewel" local="true">DSE - Buttplug - Gem.osd\JewelHipForward</Data>
+            <Data name="GlowHipForward" target="Glow" local="true">DSE - Buttplug - Gem.osd\GlowHipForward</Data>
+        </Slider>
+        <Slider name="VanillaSSEHi" invert="false" small="0" big="0">
+            <Data name="SteelVanillaSSEHi" target="Steel" local="true">DSE - Buttplug - Gem.osd\SteelVanillaSSEHi</Data>
+            <Data name="JewelVanillaSSEHi" target="Jewel" local="true">DSE - Buttplug - Gem.osd\JewelVanillaSSEHi</Data>
+            <Data name="GlowVanillaSSEHi" target="Glow" local="true">DSE - Buttplug - Gem.osd\GlowVanillaSSEHi</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>
