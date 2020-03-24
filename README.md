@@ -2,3 +2,6 @@
 
 Equippables by Darkwood Manufacturing
 
+# Slot Usage
+
+* 48 - Buttplugs
