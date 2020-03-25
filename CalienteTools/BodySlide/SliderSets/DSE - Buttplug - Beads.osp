@@ -4,7 +4,7 @@
         <DataFolder>DSE - Buttplug - Beads</DataFolder>
         <SourceFile>DSE - Buttplug - Beads.nif</SourceFile>
         <OutputPath>meshes\dse-buttplug</OutputPath>
-        <OutputFile GenWeights="false">Beads-f</OutputFile>
+        <OutputFile GenWeights="true">Beads-f</OutputFile>
         <Shape target="Sphere001">Sphere001</Shape>
         <Shape target="Sphere002">Sphere002</Shape>
         <Shape target="Sphere003">Sphere003</Shape>
@@ -15,139 +15,139 @@
         <Shape target="String003">String003</Shape>
         <Shape target="String004">String004</Shape>
         <Shape target="VirtualBodyCollision">VirtualBodyCollision</Shape>
-        <Slider name="AnkleSize" invert="false" default="0">
+        <Slider name="AnkleSize" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionAnkleSize" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionAnkleSize</Data>
         </Slider>
-        <Slider name="AppleCheeks" invert="false" default="0">
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionAppleCheeks" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionAppleCheeks</Data>
         </Slider>
-        <Slider name="Arms" invert="false" default="0">
+        <Slider name="Arms" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionArms" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionArms</Data>
         </Slider>
-        <Slider name="Back" invert="false" default="0">
+        <Slider name="Back" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionBack" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionBack</Data>
         </Slider>
-        <Slider name="BackArch" invert="false" default="0">
+        <Slider name="BackArch" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionBackArch" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionBackArch</Data>
         </Slider>
-        <Slider name="Belly" invert="false" default="0">
+        <Slider name="Belly" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionBelly" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionBelly</Data>
         </Slider>
-        <Slider name="BigBelly" invert="false" default="0">
+        <Slider name="BigBelly" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionBigBelly" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionBigBelly</Data>
         </Slider>
-        <Slider name="BigButt" invert="false" default="0">
+        <Slider name="BigButt" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionBigButt" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionBigButt</Data>
         </Slider>
-        <Slider name="BigTorso" invert="false" default="0">
+        <Slider name="BigTorso" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionBigTorso" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionBigTorso</Data>
         </Slider>
-        <Slider name="BreastCenter" invert="false" default="0">
+        <Slider name="BreastCenter" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionBreastCenter" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionBreastCenter</Data>
         </Slider>
-        <Slider name="BreastCenterBig" invert="false" default="0">
+        <Slider name="BreastCenterBig" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionBreastCenterBig" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionBreastCenterBig</Data>
         </Slider>
-        <Slider name="BreastCleavage" invert="false" default="0">
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionBreastCleavage" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionBreastCleavage</Data>
         </Slider>
-        <Slider name="BreastFlatness2" invert="false" default="0">
+        <Slider name="BreastFlatness2" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionBreastFlatness2" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionBreastFlatness2</Data>
         </Slider>
-        <Slider name="BreastFlatness" invert="false" default="0">
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionBreastFlatness" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionBreastFlatness</Data>
         </Slider>
-        <Slider name="BreastGravity2" invert="false" default="0">
+        <Slider name="BreastGravity2" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionBreastGravity2" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionBreastGravity2</Data>
         </Slider>
-        <Slider name="BreastHeight" invert="false" default="0">
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionBreastHeight" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionBreastHeight</Data>
         </Slider>
-        <Slider name="BreastPerkiness" invert="false" default="0">
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionBreastPerkiness" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionBreastPerkiness</Data>
         </Slider>
-        <Slider name="Breasts" invert="false" default="0">
+        <Slider name="Breasts" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionBreasts" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionBreasts</Data>
         </Slider>
-        <Slider name="BreastsFantasy" invert="false" default="0">
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionBreastsFantasy" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionBreastsFantasy</Data>
         </Slider>
-        <Slider name="BreastsGone" invert="false" default="0">
+        <Slider name="BreastsGone" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionBreastsGone" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionBreastsGone</Data>
         </Slider>
-        <Slider name="BreastsNewSH" invert="false" default="0">
+        <Slider name="BreastsNewSH" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionBreastsNewSH" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionBreastsNewSH</Data>
         </Slider>
-        <Slider name="BreastsSmall" invert="false" default="0">
+        <Slider name="BreastsSmall" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionBreastsSmall" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionBreastsSmall</Data>
         </Slider>
-        <Slider name="BreastsSmall2" invert="false" default="0">
+        <Slider name="BreastsSmall2" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionBreastsSmall2" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionBreastsSmall2</Data>
         </Slider>
-        <Slider name="BreastsTogether" invert="false" default="0">
+        <Slider name="BreastsTogether" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionBreastsTogether" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionBreastsTogether</Data>
         </Slider>
-        <Slider name="BreastTopSlope" invert="false" default="0">
+        <Slider name="BreastTopSlope" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionBreastTopSlope" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionBreastTopSlope</Data>
         </Slider>
-        <Slider name="BreastWidth" invert="false" default="0">
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionBreastWidth" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionBreastWidth</Data>
         </Slider>
-        <Slider name="Butt" invert="false" default="0">
+        <Slider name="Butt" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionButt" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionButt</Data>
         </Slider>
-        <Slider name="ButtClassic" invert="false" default="0">
+        <Slider name="ButtClassic" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionButtClassic" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionButtClassic</Data>
         </Slider>
-        <Slider name="ButtCrack" invert="false" default="0">
+        <Slider name="ButtCrack" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionButtCrack" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionButtCrack</Data>
         </Slider>
-        <Slider name="ButtShape2" invert="false" default="0">
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionButtShape2" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionButtShape2</Data>
         </Slider>
-        <Slider name="ButtSmall" invert="false" default="0">
+        <Slider name="ButtSmall" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionButtSmall" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionButtSmall</Data>
         </Slider>
-        <Slider name="CalfSize" invert="false" default="0">
+        <Slider name="CalfSize" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionCalfSize" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionCalfSize</Data>
         </Slider>
-        <Slider name="CalfSmooth" invert="false" default="0">
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionCalfSmooth" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionCalfSmooth</Data>
         </Slider>
-        <Slider name="ChestDepth" invert="false" default="0">
+        <Slider name="ChestDepth" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionChestDepth" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionChestDepth</Data>
         </Slider>
-        <Slider name="ChestWidth" invert="false" default="0">
+        <Slider name="ChestWidth" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionChestWidth" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionChestWidth</Data>
         </Slider>
-        <Slider name="ChubbyArms" invert="false" default="0">
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionChubbyArms" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionChubbyArms</Data>
         </Slider>
-        <Slider name="ChubbyButt" invert="false" default="0">
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionChubbyButt" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionChubbyButt</Data>
         </Slider>
-        <Slider name="ChubbyLegs" invert="false" default="0">
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionChubbyLegs" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionChubbyLegs</Data>
         </Slider>
-        <Slider name="ChubbyWaist" invert="false" default="0">
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionChubbyWaist" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionChubbyWaist</Data>
         </Slider>
-        <Slider name="CrotchBack" invert="false" default="0">
+        <Slider name="CrotchBack" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionCrotchBack" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionCrotchBack</Data>
         </Slider>
-        <Slider name="DoubleMelon" invert="false" default="0">
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionDoubleMelon" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionDoubleMelon</Data>
         </Slider>
-        <Slider name="ForearmSize" invert="false" default="0">
+        <Slider name="ForearmSize" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionForearmSize" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionForearmSize</Data>
         </Slider>
-        <Slider name="Groin" invert="false" default="0">
+        <Slider name="Groin" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionGroin" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionGroin</Data>
         </Slider>
-        <Slider name="HipBone" invert="false" default="0">
+        <Slider name="HipBone" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionHipBone" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionHipBone</Data>
         </Slider>
-        <Slider name="HipForward" invert="false" default="0">
+        <Slider name="HipForward" invert="false" small="0" big="0">
             <Data name="Sphere001HipForward" target="Sphere001" local="true">DSE - Buttplug - Beads.osd\Sphere001HipForward</Data>
             <Data name="String001HipForward" target="String001" local="true">DSE - Buttplug - Beads.osd\String001HipForward</Data>
             <Data name="Sphere002HipForward" target="Sphere002" local="true">DSE - Buttplug - Beads.osd\Sphere002HipForward</Data>
@@ -159,136 +159,136 @@
             <Data name="Sphere005HipForward" target="Sphere005" local="true">DSE - Buttplug - Beads.osd\Sphere005HipForward</Data>
             <Data name="VirtualBodyCollisionHipForward" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionHipForward</Data>
         </Slider>
-        <Slider name="Hips" invert="false" default="0">
+        <Slider name="Hips" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionHips" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionHips</Data>
         </Slider>
-        <Slider name="HipUpperWidth" invert="false" default="0">
+        <Slider name="HipUpperWidth" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionHipUpperWidth" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionHipUpperWidth</Data>
         </Slider>
-        <Slider name="KneeHeight" invert="false" default="0">
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionKneeHeight" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionKneeHeight</Data>
         </Slider>
-        <Slider name="KneeShape" invert="false" default="0">
+        <Slider name="KneeShape" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionKneeShape" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionKneeShape</Data>
         </Slider>
-        <Slider name="LegShapeClassic" invert="false" default="0">
+        <Slider name="LegShapeClassic" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionLegShapeClassic" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionLegShapeClassic</Data>
         </Slider>
-        <Slider name="LegsThin" invert="false" default="0">
+        <Slider name="LegsThin" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionLegsThin" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionLegsThin</Data>
         </Slider>
-        <Slider name="MuscleAbs" invert="false" default="0">
+        <Slider name="MuscleAbs" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionMuscleAbs" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionMuscleAbs</Data>
         </Slider>
-        <Slider name="MuscleArms" invert="false" default="0">
+        <Slider name="MuscleArms" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionMuscleArms" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionMuscleArms</Data>
         </Slider>
-        <Slider name="MuscleButt" invert="false" default="0">
+        <Slider name="MuscleButt" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionMuscleButt" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionMuscleButt</Data>
         </Slider>
-        <Slider name="MuscleLegs" invert="false" default="0">
+        <Slider name="MuscleLegs" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionMuscleLegs" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionMuscleLegs</Data>
         </Slider>
-        <Slider name="MusclePecs" invert="false" default="0">
+        <Slider name="MusclePecs" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionMusclePecs" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionMusclePecs</Data>
         </Slider>
-        <Slider name="NeckSeam" invert="false" default="0" hidden="true">
+        <Slider name="NeckSeam" invert="false" small="0" big="0" hidden="true">
             <Data name="VirtualBodyCollisionNeckSeam" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionNeckSeam</Data>
         </Slider>
-        <Slider name="NipBGone" invert="false" default="0">
+        <Slider name="NipBGone" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionNipBGone" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionNipBGone</Data>
         </Slider>
-        <Slider name="NippleDistance" invert="false" default="0">
+        <Slider name="NippleDistance" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionNippleDistance" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionNippleDistance</Data>
         </Slider>
-        <Slider name="NippleDown" invert="false" default="0">
+        <Slider name="NippleDown" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionNippleDown" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionNippleDown</Data>
         </Slider>
-        <Slider name="NippleLength" invert="false" default="0">
+        <Slider name="NippleLength" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionNippleLength" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionNippleLength</Data>
         </Slider>
-        <Slider name="NippleManga" invert="false" default="0">
+        <Slider name="NippleManga" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionNippleManga" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionNippleManga</Data>
         </Slider>
-        <Slider name="NipplePerkiness" invert="false" default="0">
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionNipplePerkiness" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionNipplePerkiness</Data>
         </Slider>
-        <Slider name="NipplePerkManga" invert="false" default="0">
+        <Slider name="NipplePerkManga" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionNipplePerkManga" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionNipplePerkManga</Data>
         </Slider>
-        <Slider name="NippleSize" invert="false" default="0">
+        <Slider name="NippleSize" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionNippleSize" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionNippleSize</Data>
         </Slider>
-        <Slider name="NippleTip" invert="false" default="0">
+        <Slider name="NippleTip" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionNippleTip" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionNippleTip</Data>
         </Slider>
-        <Slider name="NippleTipManga" invert="false" default="0">
+        <Slider name="NippleTipManga" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionNippleTipManga" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionNippleTipManga</Data>
         </Slider>
-        <Slider name="NippleUp" invert="false" default="0">
+        <Slider name="NippleUp" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionNippleUp" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionNippleUp</Data>
         </Slider>
-        <Slider name="PregnancyBelly" invert="false" default="0">
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionPregnancyBelly" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionPregnancyBelly</Data>
         </Slider>
-        <Slider name="PushUp" invert="false" default="0">
+        <Slider name="PushUp" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionPushUp" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionPushUp</Data>
         </Slider>
-        <Slider name="RibsProminance" invert="false" default="0">
+        <Slider name="RibsProminance" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionRibsProminance" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionRibsProminance</Data>
         </Slider>
-        <Slider name="RoundAss" invert="false" default="0">
+        <Slider name="RoundAss" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionRoundAss" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionRoundAss</Data>
         </Slider>
-        <Slider name="ShoulderSmooth" invert="false" default="0">
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionShoulderSmooth" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionShoulderSmooth</Data>
         </Slider>
-        <Slider name="ShoulderTweak" invert="false" default="0">
+        <Slider name="ShoulderTweak" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionShoulderTweak" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionShoulderTweak</Data>
         </Slider>
-        <Slider name="ShoulderWidth" invert="false" default="0">
+        <Slider name="ShoulderWidth" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionShoulderWidth" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionShoulderWidth</Data>
         </Slider>
-        <Slider name="SlimThighs" invert="false" default="0">
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionSlimThighs" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionSlimThighs</Data>
         </Slider>
-        <Slider name="SternumDepth" invert="false" default="0">
+        <Slider name="SternumDepth" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionSternumDepth" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionSternumDepth</Data>
         </Slider>
-        <Slider name="SternumHeight" invert="false" default="0">
+        <Slider name="SternumHeight" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionSternumHeight" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionSternumHeight</Data>
         </Slider>
-        <Slider name="Thighs" invert="false" default="0">
+        <Slider name="Thighs" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionThighs" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionThighs</Data>
         </Slider>
-        <Slider name="TummyTuck" invert="false" default="0">
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionTummyTuck" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionTummyTuck</Data>
         </Slider>
-        <Slider name="Waist" invert="false" default="0">
+        <Slider name="Waist" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionWaist" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionWaist</Data>
         </Slider>
-        <Slider name="WaistHeight" invert="false" default="0">
+        <Slider name="WaistHeight" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionWaistHeight" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionWaistHeight</Data>
         </Slider>
-        <Slider name="WideWaistLine" invert="false" default="0">
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionWideWaistLine" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionWideWaistLine</Data>
         </Slider>
-        <Slider name="WristSize" invert="false" default="0">
+        <Slider name="WristSize" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionWristSize" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionWristSize</Data>
         </Slider>
-        <Slider name="7B Lower" invert="false" default="0">
+        <Slider name="7B Lower" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollision7B Lower" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollision7B Lower</Data>
         </Slider>
-        <Slider name="7B Upper" invert="false" default="0">
+        <Slider name="7B Upper" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollision7B Upper" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollision7B Upper</Data>
         </Slider>
-        <Slider name="VanillaSSEHi" invert="false" default="0">
+        <Slider name="VanillaSSEHi" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionVanillaSSEHi" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionVanillaSSEHi</Data>
         </Slider>
-        <Slider name="VanillaSSELo" invert="false" default="0">
+        <Slider name="VanillaSSELo" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionVanillaSSELo" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionVanillaSSELo</Data>
         </Slider>
-        <Slider name="OldBaseShape" invert="false" default="0">
+        <Slider name="OldBaseShape" invert="false" small="0" big="0">
             <Data name="VirtualBodyCollisionOldBaseShape" target="VirtualBodyCollision" local="true">DSE - Buttplug - Beads.osd\VirtualBodyCollisionOldBaseShape</Data>
         </Slider>
     </SliderSet>

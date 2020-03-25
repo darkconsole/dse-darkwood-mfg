@@ -2,7 +2,7 @@
 
 	<!-- Anal Beads -->
 
-	<object path="dse-buttplug\Beads-f.nif" remappable="true">
+	<object path="dse-buttplug\Beads-f_1.nif" remappable="true">
 
 		<geometry name="Sphere001" texture="0">
 			<mask slot="0" type="solid"  alpha="1.0" color="333333" blend="tint" />
@@ -51,7 +51,7 @@
 
 	</object>
 
-	<object path="dse-buttplug\Beads-m.nif" remappable="true">
+	<object path="dse-buttplug\Beads-m_1.nif" remappable="true">
 
 		<geometry name="Sphere001" texture="0">
 			<mask slot="0" type="solid"  alpha="1.0" color="333333" blend="tint" />
