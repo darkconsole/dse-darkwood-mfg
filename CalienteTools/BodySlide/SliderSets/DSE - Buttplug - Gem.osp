@@ -5,9 +5,9 @@
         <SourceFile>DSE - Buttplug - Gem.nif</SourceFile>
         <OutputPath>meshes\dse-buttplug</OutputPath>
         <OutputFile GenWeights="true">Gem-f</OutputFile>
-        <Shape target="Glow">Glow</Shape>
-        <Shape target="Jewel">Jewel</Shape>
-        <Shape target="Steel">Steel</Shape>
+        <Shape target="Glow" LockNormals="true">Glow</Shape>
+        <Shape target="Jewel" LockNormals="true">Jewel</Shape>
+        <Shape target="Steel" LockNormals="true">Steel</Shape>
         <Slider name="ButtClassic" invert="false" small="0" big="0">
             <Data name="SteelButtClassic" target="Steel" local="true">DSE - Buttplug - Gem.osd\SteelButtClassic</Data>
             <Data name="JewelButtClassic" target="Jewel" local="true">DSE - Buttplug - Gem.osd\JewelButtClassic</Data>
